@@ -56,5 +56,6 @@ mainMenu.add_cascade(label="이미지 효과", menu=imageMenu)
 imageMenu.add_command(label="확대하기", command=func_zoom)
 imageMenu.add_separator()
 imageMenu.add_command(label="축소하기", command=func_subsample)
+###이렇게 하는건감ㅎㅎㅎㅎㅎㅎㅎ
 
 window.mainloop()
